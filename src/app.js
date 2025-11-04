@@ -18,7 +18,7 @@ app.get("/health", (req, res) => {
   res.status(200).json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
-// Not found (por ahora, simple)
+// Not found
 app.use((req, res) => {
   res.status(404).json({ error: "Endpoint no encontrado" });
 });
