@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "2e6f325bffe5",
+    "title": "Zapatillas",
+    "description": "Running",
+    "code": "SKU-001",
+    "price": 100,
+    "status": true,
+    "stock": 20,
+    "category": "calzado",
+    "thumbnails": [
+      "/img/1.jpg"
+    ]
+  }
+]
