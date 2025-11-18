@@ -11,5 +11,27 @@
     "thumbnails": [
       "/img/1.jpg"
     ]
+  },
+  {
+    "id": "6afca2818f37",
+    "title": "Bota ",
+    "description": "Bota para mujer",
+    "code": "22345",
+    "price": 2500,
+    "status": true,
+    "stock": 1,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "id": "b0dbd08243f3",
+    "title": "Media",
+    "description": "Media Deportiva",
+    "code": "65550",
+    "price": 10,
+    "status": true,
+    "stock": 2,
+    "category": "Media",
+    "thumbnails": []
   }
 ]

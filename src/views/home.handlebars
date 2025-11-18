@@ -1,0 +1,14 @@
+{{!< layouts/main}} <h1>Home (HTTP)</h1>
+    <p class="muted">Lista de productos renderizada por el servidor (sin websockets).</p>
+    <div id="list">
+        {{#each products}}
+        <div class="card">
+            <b>{{this.title}}</b> — ${{this.price}}<br />
+            <span class="muted">id: {{this.id}} | code: {{this.code}}</span>
+        </div>
+        {{/each}}
+        {{^products}}
+        <p>No hay productos.</p>
+        {{/products}}
+    </div>
+    <p><a href="/realtimeproducts">Ir a Real Time →</a></p>
